@@ -1,0 +1,56 @@
+[
+    {
+      "recipe_image": "https://i.postimg.cc/qqm2KtS9/chicken-teriyaki.jpg",
+      "recipe_id": 1,
+      "recipe_name": "Chicken Teriyaki",
+      "short_description": "A delicious Japanese dish featuring tender chicken in a sweet and savory teriyaki sauce.",
+      "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
+      "preparing_time": "30 min",
+      "calories": "320 calories"
+    },
+    {
+      "recipe_image": "https://i.postimg.cc/brvtqyrL/spaghetti-bolognese.jpg",
+      "recipe_id": 2,
+      "recipe_name": "Spaghetti Bolognese",
+      "short_description": "Classic Italian pasta dish with rich tomato sauce and savory ground beef.",
+      "ingredients": ["400 g spaghetti", "300 g ground beef", "500 ml tomato sauce", "100 g onion", "2 cloves garlic"],
+      "preparing_time": "45 min",
+      "calories": "450 calories"
+    },
+    {
+      "recipe_image": "https://i.postimg.cc/4dQ6J254/vegetable-curry.jpg",
+      "recipe_id": 3,
+      "recipe_name": "Vegetable Curry",
+      "short_description": "A flavorful vegetarian curry loaded with fresh vegetables and aromatic spices.",
+      "ingredients": ["300 g mixed vegetables (e.g., carrots, peas, potatoes)", "200 ml coconut milk", "100 g curry paste", "1 tbsp vegetable oil"],
+      "preparing_time": "40 min",
+      "calories": "280 calories"
+    },
+    {
+      "recipe_image": "https://i.postimg.cc/HsVyKkfk/greek-salad.jpg",
+      "recipe_id": 4,
+      "recipe_name": "Greek Salad",
+      "short_description": "A refreshing salad featuring crisp lettuce, juicy tomatoes, creamy feta cheese, and tangy olives.",
+      "ingredients": ["200 g lettuce", "150 g tomatoes", "100 g cucumber", "50 g feta cheese", "50 g olives"],
+      "preparing_time": "15 min",
+      "calories": "180 calories"
+    },
+    {
+      "recipe_image": "https://i.postimg.cc/K8TgGscX/banana-smoothie.jpg",
+      "recipe_id": 5,
+      "recipe_name": "Banana Smoothie",
+      "short_description": "A creamy and satisfying smoothie made with ripe bananas and yogurt.",
+      "ingredients": ["2 ripe bananas", "250 ml yogurt", "50 g honey", "100 ml milk"],
+      "preparing_time": "5 min",
+      "calories": "200 calories"
+    },
+    {
+      "recipe_image": "https://i.postimg.cc/hv49h8yL/grilled-salmon.jpg",
+      "recipe_id": 6,
+      "recipe_name": "Grilled Salmon",
+      "short_description": "Tender grilled salmon fillets seasoned with herbs and lemon.",
+      "ingredients": ["4 salmon fillets", "2 tbsp olive oil", "1 lemon", "1 tbsp fresh dill", "Salt and pepper to taste"],
+      "preparing_time": "20 min",
+      "calories": "300 calories"
+    }
+  ]
