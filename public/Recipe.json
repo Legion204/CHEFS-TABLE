@@ -5,7 +5,7 @@
       "recipe_name": "Chicken Teriyaki",
       "short_description": "A delicious Japanese dish featuring tender chicken in a sweet and savory teriyaki sauce.",
       "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
-      "preparing_time": "30 min",
+      "preparing_time": "30 minutes",
       "calories": "320 calories"
     },
     {
@@ -14,7 +14,7 @@
       "recipe_name": "Spaghetti Bolognese",
       "short_description": "Classic Italian pasta dish with rich tomato sauce and savory ground beef.",
       "ingredients": ["400 g spaghetti", "300 g ground beef", "500 ml tomato sauce", "100 g onion", "2 cloves garlic"],
-      "preparing_time": "45 min",
+      "preparing_time": "45 minutes",
       "calories": "450 calories"
     },
     {
@@ -23,7 +23,7 @@
       "recipe_name": "Vegetable Curry",
       "short_description": "A flavorful vegetarian curry loaded with fresh vegetables and aromatic spices.",
       "ingredients": ["300 g mixed vegetables (e.g., carrots, peas, potatoes)", "200 ml coconut milk", "100 g curry paste", "1 tbsp vegetable oil"],
-      "preparing_time": "40 min",
+      "preparing_time": "40 minutes",
       "calories": "280 calories"
     },
     {
@@ -32,7 +32,7 @@
       "recipe_name": "Greek Salad",
       "short_description": "A refreshing salad featuring crisp lettuce, juicy tomatoes, creamy feta cheese, and tangy olives.",
       "ingredients": ["200 g lettuce", "150 g tomatoes", "100 g cucumber", "50 g feta cheese", "50 g olives"],
-      "preparing_time": "15 min",
+      "preparing_time": "15 minutes",
       "calories": "180 calories"
     },
     {
@@ -41,7 +41,7 @@
       "recipe_name": "Banana Smoothie",
       "short_description": "A creamy and satisfying smoothie made with ripe bananas and yogurt.",
       "ingredients": ["2 ripe bananas", "250 ml yogurt", "50 g honey", "100 ml milk"],
-      "preparing_time": "5 min",
+      "preparing_time": "5 minutes",
       "calories": "200 calories"
     },
     {
@@ -50,7 +50,7 @@
       "recipe_name": "Grilled Salmon",
       "short_description": "Tender grilled salmon fillets seasoned with herbs and lemon.",
       "ingredients": ["4 salmon fillets", "2 tbsp olive oil", "1 lemon", "1 tbsp fresh dill", "Salt and pepper to taste"],
-      "preparing_time": "20 min",
+      "preparing_time": "20 minutes",
       "calories": "300 calories"
     }
   ]

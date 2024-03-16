@@ -17,6 +17,7 @@ const Cooking = ({recipes}) => {
               <th>Time</th>
               <th>Calories</th>
               <th></th>
+              <th></th>
             </tr>
           </thead>
             </table>
