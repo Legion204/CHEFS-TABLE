@@ -1,3 +1,5 @@
+
+
 const Header = () => {
   return (
     <div className="m-2">
@@ -25,7 +27,7 @@ const Header = () => {
           <div className="form-control">
             <input
               type="text"
-              placeholder="Search"
+              placeholder=" 🔍 Search"
               className="input input-bordered w-24 md:w-auto"
             />
           </div>

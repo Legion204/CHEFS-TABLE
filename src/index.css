@@ -6,3 +6,7 @@
 body{
   font-family: "Lexend", sans-serif;
 }
+
+.line{
+  width:-webkit-fill-available;
+}
