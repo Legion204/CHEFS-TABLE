@@ -21,6 +21,13 @@ function App() {
     }
   };
 
+  console.log(recipes.map(recipe=>recipe.recipe_id));
+
+  const handelCurrentlyCooking = (id) => {
+    const newCooking = recipes.filter((item) => item.recipe_id != id);
+    setRecipes(newCooking);
+  };
+
   return (
     <div className="container mx-auto">
       <Header></Header>
@@ -35,7 +42,10 @@ function App() {
       </div>
       <div className="flex flex-col lg:flex-row mt-12">
         <Recipes handelWantToCook={handelWantToCook}></Recipes>
-        <Cooking recipes={recipes}></Cooking>
+        <Cooking
+          recipes={recipes}
+          handelCurrentlyCooking={handelCurrentlyCooking}
+        ></Cooking>
         <ToastContainer></ToastContainer>
       </div>
     </div>
