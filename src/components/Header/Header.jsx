@@ -24,7 +24,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="flex-none gap-2">
-          <div className="form-control">
+          <div className="form-control invisible lg:visible">
             <input
               type="text"
               placeholder=" 🔍 Search"
@@ -38,9 +38,9 @@ const Header = () => {
               className="btn btn-ghost btn-circle avatar"
             >
               <div className="w-10 rounded-full">
-                <img
+                <img className="bg-[#0BE58A]"
                   alt="Tailwind CSS Navbar component"
-                  src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                  src="Frame.svg"
                 />
               </div>
             </div>

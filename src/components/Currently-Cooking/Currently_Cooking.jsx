@@ -1,4 +1,8 @@
-const Currently_Cooking = () => {
+import PropTypes from 'prop-types';
+const Currently_Cooking = ({newRecipe,index}) => {
+
+    const {recipe_name,preparing_time,calories}=newRecipe;
+
   return (
     <div>
       <div>
@@ -7,10 +11,10 @@ const Currently_Cooking = () => {
             <tbody>
               {/* row 1 */}
               <tr className="bg-base-200">
-                <th>1</th>
-                <td>fhuheu</td>
-                <td>fjhf</td>
-                <td>qwer</td>
+                <th>{index+1}</th>
+                <td>{recipe_name}</td>
+                <td>{preparing_time}</td>
+                <td>{calories}</td>
               </tr>
             </tbody>
           </table>
@@ -19,5 +23,10 @@ const Currently_Cooking = () => {
     </div>
   );
 };
+
+Currently_Cooking.propTypes={
+    newRecipe:PropTypes.object,
+    index:PropTypes.number
+}
 
 export default Currently_Cooking;

@@ -15,7 +15,7 @@ const Recipes = ({handelWantToCook}) => {
     },[])
 
     return (
-        <div className="w-2/3 grid grid-cols-1 lg:grid-cols-2 gap-y-5 m-2">
+        <div className="lg:w-2/3 grid grid-cols-1 lg:grid-cols-2 gap-y-5 m-2">
             {
                 recipes.map((recipe,idx)=><Recipe
                 handelWantToCook={handelWantToCook}

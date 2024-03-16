@@ -4,10 +4,10 @@ import Currently_Cooking from '../Currently-Cooking/Currently_Cooking';
 
 
 
-const Cooking = ({recipes,handelCurrentlyCooking}) => {
+const Cooking = ({recipes,handelCurrentlyCooking,newRecipes}) => {
 
     return (
-        <div className="w-1/3 m-2">
+        <div className="lg:w-1/3 m-2">
             <h1 className="font-semibold text-2xl text-center mb-4">Want to cook: {recipes.length} </h1>
             <hr className='line border-solid text-[#2828281A] border-t-2'></hr>
             <table className="table">
@@ -31,7 +31,7 @@ const Cooking = ({recipes,handelCurrentlyCooking}) => {
                 handelCurrentlyCooking={handelCurrentlyCooking}
                 ></WantToCook>)
             }
-            <h1 className="font-semibold text-2xl text-center mt-8 mb-4">Currently cooking: 02 </h1>
+            <h1 className="font-semibold text-2xl text-center mt-8 mb-4">Currently cooking: {newRecipes.length} </h1>
             <hr className='line border-solid text-[#2828281A] border-t-2'></hr>
             <table className="table">
                 {/* head */}
@@ -46,7 +46,11 @@ const Cooking = ({recipes,handelCurrentlyCooking}) => {
           </thead>
             </table>
             {
-               <Currently_Cooking></Currently_Cooking> 
+               newRecipes.map((newRecipe,idx)=><Currently_Cooking
+               key={idx}
+               newRecipe={newRecipe}
+               index={idx}
+               ></Currently_Cooking>) 
             }
         </div>
     );
@@ -54,7 +58,8 @@ const Cooking = ({recipes,handelCurrentlyCooking}) => {
 
 Cooking.propTypes={
     recipes:PropTypes.array,
-    handelCurrentlyCooking:PropTypes.func
+    handelCurrentlyCooking:PropTypes.func,
+    newRecipes:PropTypes.array
 }
 
 export default Cooking;

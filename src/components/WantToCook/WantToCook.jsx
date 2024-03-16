@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const WantToCook = ({recipe,index,handelCurrentlyCooking}) => {
-    const{recipe_name,preparing_time,calories,recipe_id}=recipe;
+    const{recipe_name,preparing_time,calories}=recipe;
   return (
     <div>
       <div className="overflow-x-auto">
@@ -13,7 +13,7 @@ const WantToCook = ({recipe,index,handelCurrentlyCooking}) => {
               <td>{recipe_name}</td>
               <td>{preparing_time}</td>
               <td>{calories}</td>
-              <td><button onClick={()=>handelCurrentlyCooking(recipe_id)} className="btn bg-[#0BE58A] rounded-full border-none mr-4">Preparing</button></td>
+              <td><button onClick={()=>handelCurrentlyCooking(recipe)} className="btn bg-[#0BE58A] rounded-full border-none mr-4">Preparing</button></td>
             </tr>
           </tbody>
         </table>
