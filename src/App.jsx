@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Recipes from "./components/Recipes/Recipes";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [recipes, setRecipes] = useState([]);
@@ -17,8 +18,9 @@ function App() {
     if (!isExist) {
       const newRecipe = [...recipes, recipe];
       setRecipes(newRecipe);
+      toast.success('Recipe successfully added')
     } else {
-      toast("You already added this recipe");
+      toast.warn("You already added this recipe");
     }
   };
 
@@ -52,6 +54,7 @@ function App() {
         ></Cooking>
         <ToastContainer></ToastContainer>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

@@ -13,8 +13,8 @@ const Currently_Cooking = ({newRecipe,index}) => {
               <tr className="bg-base-200">
                 <th>{index+1}</th>
                 <td>{recipe_name}</td>
-                <td>{preparing_time}</td>
-                <td>{calories}</td>
+                <td>{preparing_time} minutes</td>
+                <td>{calories} calories</td>
               </tr>
             </tbody>
           </table>

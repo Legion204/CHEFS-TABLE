@@ -32,8 +32,8 @@ const Recipe = ({recipe,handelWantToCook}) => {
           </div>
           <hr className='line border-solid text-[#2828281A] border-t-2'></hr>
           <div className='flex mt-6'>
-            <p className='flex justify-center items-center gap-2'><FaRegClock />{preparing_time}</p>
-            <p className='flex justify-center items-center gap-2'><GoFlame />{calories}</p>
+            <p className='flex justify-center items-center gap-2'><FaRegClock />{preparing_time}  minutes</p>
+            <p className='flex justify-center items-center gap-2'><GoFlame />{calories} calories</p>
           </div>
           <div className="card-actions mt-6">
           <button onClick={()=>handelWantToCook({recipe})} className="btn bg-[#0BE58A] rounded-full border-none mr-4">Want to Cook</button>
